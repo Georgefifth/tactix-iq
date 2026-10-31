@@ -1,9 +1,9 @@
 # State
 
-- stage: 3
+- stage: 5
 - title: AQX Sports Analytics Data Bowl 4.0 - TactixIQ
 - theme: TactixIQ - Football Tactical Turnover & High-Press Resistance Intelligence System
-- acceptance: Stage 2 build, UX contract, screenshot verification, clean GitHub repo (https://github.com/Georgefifth/tactix-iq), and production deployment (https://aqx-sports.vercel.app) verified. Moving to Stage 3 QA.
-- evidence: evidence/stage-2-build.md
-- blockers: none
-- updated: 2026-10-31 18:04
+- acceptance: Stage 5 submission package ready in submission/ (fields.md, assets/, checklist.md) and evidence/stage-5-submission.md; awaiting human submission on Devpost.
+- evidence: evidence/stage-5-submission.md
+- blockers: Awaiting human submission on Devpost
+- updated: 2026-10-31 18:24

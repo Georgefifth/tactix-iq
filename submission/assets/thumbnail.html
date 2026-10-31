@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TactixIQ Thumbnail</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=JetBrains+Mono:wght@700;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      width: 1200px;
+      height: 800px;
+      overflow: hidden;
+      background: #080C0E;
+      font-family: 'Inter', sans-serif;
+      color: #F1F5F9;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 60px 70px;
+      position: relative;
+    }
+    /* Subtle pitch markings background */
+    .pitch-bg {
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: radial-gradient(circle at 75% 50%, rgba(16, 185, 129, 0.12), transparent 60%),
+                  radial-gradient(circle at 25% 80%, rgba(239, 68, 68, 0.08), transparent 50%);
+      pointer-events: none;
+    }
+    .grid-lines {
+      position: absolute;
+      top: 40px; bottom: 40px; left: 40px; right: 40px;
+      border: 2px dashed rgba(45, 90, 76, 0.4);
+      border-radius: 12px;
+      pointer-events: none;
+    }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+  </style>
+</head>
+<body>
+  <div class="pitch-bg"></div>
+  <div class="grid-lines"></div>
+
+  <!-- Header -->
+  <div style="position: relative; z-index: 10; display: flex; justify-content: space-between; align-items: center;">
+    <div style="display: flex; align-items: center; gap: 14px;">
+      <div style="width: 48px; height: 48px; border-radius: 12px; background: rgba(16, 185, 129, 0.2); border: 2px solid #10B981; display: flex; align-items: center; justify-content: center;">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#10B981" stroke-width="2.5">
+          <circle cx="12" cy="12" r="10"/>
+          <path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/>
+          <circle cx="12" cy="12" r="4"/>
+        </svg>
+      </div>
+      <div>
+        <h1 style="font-size: 32px; font-weight: 900; letter-spacing: -0.5px;">Tactix<span style="color: #10B981;">IQ</span></h1>
+        <div class="mono" style="font-size: 13px; color: #94A3B8; letter-spacing: 1px;">AQX SPORTS ANALYTICS DATA BOWL 4.0</div>
+      </div>
+    </div>
+
+    <div class="mono" style="background: rgba(16, 185, 129, 0.15); border: 1.5px solid #10B981; color: #34D399; padding: 8px 18px; border-radius: 9999px; font-size: 13px; font-weight: 700;">
+      OPEN-SOURCE FOOTBALL INTELLIGENCE
+    </div>
+  </div>
+
+  <!-- Hero Content -->
+  <div style="position: relative; z-index: 10; max-width: 900px;">
+    <div class="mono" style="font-size: 16px; font-weight: 700; color: #EF4444; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 12px;">
+      SPATIAL TURNOVER & PRESS-RESISTANCE PLATFORM
+    </div>
+    <h2 style="font-size: 54px; font-weight: 900; line-height: 1.12; color: #FFFFFF; margin-bottom: 20px;">
+      Where Possessions Break Down.<br>
+      <span style="color: #10B981;">How Champions Trap.</span>
+    </h2>
+    <p style="font-size: 21px; line-height: 1.5; color: #94A3B8;">
+      Transforming thousands of StatsBomb spatial events into an 18-zone pitch hazard matrix, press-composure quadrants, and automated opposition press triggers.
+    </p>
+  </div>
+
+  <!-- Bottom Metric Bar -->
+  <div style="position: relative; z-index: 10; display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; background: rgba(15, 23, 27, 0.95); border: 1px solid #1E313B; padding: 22px 28px; border-radius: 14px;">
+    <div>
+      <div class="mono" style="font-size: 11px; color: #94A3B8; text-transform: uppercase;">TOURNAMENT EVENTS</div>
+      <div class="mono" style="font-size: 26px; font-weight: 800; color: #FFFFFF; margin-top: 4px;">14,905+</div>
+      <div style="font-size: 12px; color: #34D399;">Euro 2024 & WC 2022</div>
+    </div>
+    <div style="border-left: 1px solid #1E313B; padding-left: 20px;">
+      <div class="mono" style="font-size: 11px; color: #94A3B8; text-transform: uppercase;">TACTICAL PITCH</div>
+      <div class="mono" style="font-size: 26px; font-weight: 800; color: #10B981; margin-top: 4px;">18 Zones</div>
+      <div style="font-size: 12px; color: #94A3B8;">Pitch Danger Index (PDI)</div>
+    </div>
+    <div style="border-left: 1px solid #1E313B; padding-left: 20px;">
+      <div class="mono" style="font-size: 11px; color: #94A3B8; text-transform: uppercase;">TRANSITION THREAT</div>
+      <div class="mono" style="font-size: 26px; font-weight: 800; color: #EF4444; margin-top: 4px;">&le; 15s xG</div>
+      <div style="font-size: 12px; color: #94A3B8;">Conceded shot tracking</div>
+    </div>
+    <div style="border-left: 1px solid #1E313B; padding-left: 20px;">
+      <div class="mono" style="font-size: 11px; color: #94A3B8; text-transform: uppercase;">DEPLOYED STATUS</div>
+      <div class="mono" style="font-size: 26px; font-weight: 800; color: #38BDF8; margin-top: 4px;">Live 200 OK</div>
+      <div style="font-size: 12px; color: #94A3B8;">Vercel + GitHub</div>
+    </div>
+  </div>
+</body>
+</html>
