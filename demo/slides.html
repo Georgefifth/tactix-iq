@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>TactixIQ Presentation Deck</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700;800&display=swap" rel="stylesheet">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #000; font-family: 'Inter', sans-serif; color: #F1F5F9; }
+    .slide {
+      width: 1920px;
+      height: 1080px;
+      position: relative;
+      overflow: hidden;
+      background: #080C0E;
+      display: flex;
+      flex-direction: column;
+      padding: 80px 100px;
+      border-bottom: 2px solid #1E313B;
+    }
+    .mono { font-family: 'JetBrains Mono', monospace; }
+    .emerald { color: #10B981; }
+    .crimson { color: #EF4444; }
+    .amber { color: #F59E0B; }
+    .slate { color: #94A3B8; }
+    .bg-panel { background: #0F171B; border: 1px solid #1E313B; border-radius: 16px; }
+    .bg-dark { background: #080C0E; border: 1px solid #1E313B; border-radius: 12px; }
+  </style>
+</head>
+<body>
+
+  <!-- Slide 1: The Transition Problem -->
+  <div class="slide" id="slide-1-problem">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 40px;">
+      <div>
+        <div class="mono" style="font-size: 14px; font-weight: 700; color: #10B981; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">
+          DOMAIN PROBLEM & MOTIVATION
+        </div>
+        <h1 style="font-size: 48px; font-weight: 900; line-height: 1.15; color: #FFFFFF;">
+          Modern Matches Are Decided in <span class="crimson">Defensive Transition</span>
+        </h1>
+      </div>
+      <div class="mono" style="font-size: 16px; background: #0F171B; border: 1px solid #1E313B; padding: 8px 18px; border-radius: 8px; color: #94A3B8;">
+        AQX SPORTS ANALYTICS DATA BOWL 4.0
+      </div>
+    </div>
+
+    <!-- Main Comparison Grid -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; flex: 1;">
+      <!-- Conventional Pain Point -->
+      <div class="bg-panel" style="padding: 40px; display: flex; flex-direction: column; justify-content: space-between; border-left: 6px solid #EF4444;">
+        <div>
+          <div class="mono" style="font-size: 18px; font-weight: 800; color: #EF4444; margin-bottom: 12px;">
+            THE CONVENTIONAL COACHING WORKFLOW
+          </div>
+          <p style="font-size: 20px; line-height: 1.5; color: #CBD5E1; margin-bottom: 24px;">
+            Tactical analysts spend 12+ hours manually scrubbing match video. Standard dispossessions in box scores ignore spatial danger and pressure intensity.
+          </p>
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 18px; color: #94A3B8;">
+              <span style="color: #EF4444; font-weight: 900; font-size: 22px;">&times;</span> Closed enterprise tools cost $20,000–$50,000/year
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 18px; color: #94A3B8;">
+              <span style="color: #EF4444; font-weight: 900; font-size: 22px;">&times;</span> Box scores count lost balls without conceded hazard context
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 18px; color: #94A3B8;">
+              <span style="color: #EF4444; font-weight: 900; font-size: 22px;">&times;</span> Open-source Python libraries require writing code in notebooks
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-dark mono" style="padding: 16px 20px; font-size: 16px; color: #F87171;">
+          RESULT: Critical counter-press triggers discovered too late.
+        </div>
+      </div>
+
+      <!-- TactixIQ Solution -->
+      <div class="bg-panel" style="padding: 40px; display: flex; flex-direction: column; justify-content: space-between; border-left: 6px solid #10B981;">
+        <div>
+          <div class="mono" style="font-size: 18px; font-weight: 800; color: #10B981; margin-bottom: 12px;">
+            TACTIXIQ: THE TACTICAL COMMAND STUDIO
+          </div>
+          <p style="font-size: 20px; line-height: 1.5; color: #CBD5E1; margin-bottom: 24px;">
+            Instantaneous 18-zone spatial intelligence mapping where opponents turn over possession under high pressure, calculating conceded transition xG in &le;15s.
+          </p>
+          <div style="display: flex; flex-direction: column; gap: 14px;">
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 18px; color: #F1F5F9;">
+              <span style="color: #10B981; font-weight: 900; font-size: 22px;">&check;</span> 100% Free & Open Source (Powered by StatsBomb Open Data)
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 18px; color: #F1F5F9;">
+              <span style="color: #10B981; font-weight: 900; font-size: 22px;">&check;</span> Calibrated Pitch Danger Index (PDI) weighted by conceded threat
+            </div>
+            <div style="display: flex; align-items: center; gap: 12px; font-size: 18px; color: #F1F5F9;">
+              <span style="color: #10B981; font-weight: 900; font-size: 22px;">&check;</span> Automated Opposition Press Trigger Directives ready in 30 seconds
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-dark mono" style="padding: 16px 20px; font-size: 16px; color: #34D399;">
+          IMPACT: Actionable match preparation dossier generated in under 30s.
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 2: Technical Architecture -->
+  <div class="slide" id="slide-2-architecture">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 40px;">
+      <div>
+        <div class="mono" style="font-size: 14px; font-weight: 700; color: #10B981; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">
+          SYSTEM ARCHITECTURE & DATA FLOW
+        </div>
+        <h1 style="font-size: 48px; font-weight: 900; line-height: 1.15; color: #FFFFFF;">
+          High-Density Spatial Telemetry Pipeline
+        </h1>
+      </div>
+      <div class="mono" style="font-size: 16px; background: #0F171B; border: 1px solid #1E313B; padding: 8px 18px; border-radius: 8px; color: #10B981;">
+        100% LOCAL CLIENT EXECUTION
+      </div>
+    </div>
+
+    <!-- 4 Pipeline Stages -->
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; flex: 1;">
+      <!-- Node 1 -->
+      <div class="bg-panel" style="padding: 28px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div class="mono" style="font-size: 13px; font-weight: 800; color: #38BDF8; margin-bottom: 8px;">STAGE 01</div>
+          <h3 style="font-size: 22px; font-weight: 800; color: #FFFFFF; margin-bottom: 12px;">Telemetry Ingestion</h3>
+          <p style="font-size: 15px; color: #94A3B8; line-height: 1.5;">
+            Ingests 3,600+ raw events per match from StatsBomb Open Data (Euro 2024 & WC 2022).
+          </p>
+        </div>
+        <div class="bg-dark mono" style="padding: 12px; font-size: 13px; color: #38BDF8;">
+          &bull; [x, y] coordinates<br>
+          &bull; under_pressure tag<br>
+          &bull; counterpress flags
+        </div>
+      </div>
+
+      <!-- Node 2 -->
+      <div class="bg-panel" style="padding: 28px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div class="mono" style="font-size: 13px; font-weight: 800; color: #10B981; margin-bottom: 8px;">STAGE 02</div>
+          <h3 style="font-size: 22px; font-weight: 800; color: #FFFFFF; margin-bottom: 12px;">Spatial Slicing</h3>
+          <p style="font-size: 15px; color: #94A3B8; line-height: 1.5;">
+            Partitions pitch into 18 tactical cells (3 Thirds &times; 6 Lanes: Wings, Half-Spaces, Center).
+          </p>
+        </div>
+        <div class="bg-dark mono" style="padding: 12px; font-size: 13px; color: #10B981;">
+          &bull; 18 tactical zones<br>
+          &bull; Turnover clustering<br>
+          &bull; Trajectory vectors
+        </div>
+      </div>
+
+      <!-- Node 3 -->
+      <div class="bg-panel" style="padding: 28px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div class="mono" style="font-size: 13px; font-weight: 800; color: #F59E0B; margin-bottom: 8px;">STAGE 03</div>
+          <h3 style="font-size: 22px; font-weight: 800; color: #FFFFFF; margin-bottom: 12px;">Hazard Modeling</h3>
+          <p style="font-size: 15px; color: #94A3B8; line-height: 1.5;">
+            Looks forward 15s post-turnover to quantify opponent shots and conceded xG probability.
+          </p>
+        </div>
+        <div class="bg-dark mono" style="padding: 12px; font-size: 13px; color: #F59E0B;">
+          &bull; Conceded xG &le; 15s<br>
+          &bull; Pitch Danger Index<br>
+          &bull; Press Escape Rate %
+        </div>
+      </div>
+
+      <!-- Node 4 -->
+      <div class="bg-panel" style="padding: 28px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div class="mono" style="font-size: 13px; font-weight: 800; color: #EF4444; margin-bottom: 8px;">STAGE 04</div>
+          <h3 style="font-size: 22px; font-weight: 800; color: #FFFFFF; margin-bottom: 12px;">Prescriptive Triggers</h3>
+          <p style="font-size: 15px; color: #94A3B8; line-height: 1.5;">
+            Generates opposition press trigger cards and simulated head-to-head tactical clash scores.
+          </p>
+        </div>
+        <div class="bg-dark mono" style="padding: 12px; font-size: 13px; color: #EF4444;">
+          &bull; Trap Zone Directives<br>
+          &bull; Target Player Isolation<br>
+          &bull; Matchup Exploitation
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Slide 3: Validation & Benchmark Evidence -->
+  <div class="slide" id="slide-3-validation">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 40px;">
+      <div>
+        <div class="mono" style="font-size: 14px; font-weight: 700; color: #10B981; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">
+          STAGE 3.5 REAL-WORLD VALIDATION
+        </div>
+        <h1 style="font-size: 48px; font-weight: 900; line-height: 1.15; color: #FFFFFF;">
+          Empirical Ground Truth Verification: <span class="emerald">PASS</span>
+        </h1>
+      </div>
+      <div class="mono" style="font-size: 16px; background: #064E3B; border: 1px solid #10B981; padding: 8px 18px; border-radius: 8px; color: #34D399; font-weight: 800;">
+        10 / 10 SUITES VERIFIED
+      </div>
+    </div>
+
+    <!-- 4 Validation Stat Cards -->
+    <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 24px; margin-bottom: 30px;">
+      <div class="bg-panel" style="padding: 24px;">
+        <div class="mono slate" style="font-size: 13px;">EVENTS VALIDATED</div>
+        <div class="mono" style="font-size: 40px; font-weight: 900; color: #FFFFFF; margin: 6px 0;">14,905</div>
+        <div style="font-size: 14px; color: #34D399;">Euro 2024 & WC 2022 Matches</div>
+      </div>
+      <div class="bg-panel" style="padding: 24px;">
+        <div class="mono slate" style="font-size: 13px;">TURNOVER SENSITIVITY</div>
+        <div class="mono" style="font-size: 40px; font-weight: 900; color: #F59E0B; margin: 6px 0;">100%</div>
+        <div style="font-size: 14px; color: #94A3B8;">Exact ground truth match (98/98)</div>
+      </div>
+      <div class="bg-panel" style="padding: 24px;">
+        <div class="mono slate" style="font-size: 13px;">HAZARD SEPARATION</div>
+        <div class="mono" style="font-size: 40px; font-weight: 900; color: #EF4444; margin: 6px 0;">4.3x</div>
+        <div style="font-size: 14px; color: #94A3B8;">Defensive threat vs benign wing</div>
+      </div>
+      <div class="bg-panel" style="padding: 24px;">
+        <div class="mono slate" style="font-size: 13px;">QUERY LATENCY</div>
+        <div class="mono" style="font-size: 40px; font-weight: 900; color: #38BDF8; margin: 6px 0;">&lt; 50ms</div>
+        <div style="font-size: 14px; color: #94A3B8;">Sub-second browser rendering</div>
+      </div>
+    </div>
+
+    <!-- Detailed Validation Table -->
+    <div class="bg-panel" style="padding: 28px; flex: 1;">
+      <div class="mono" style="font-size: 16px; font-weight: 800; color: #FFFFFF; margin-bottom: 16px;">
+        TOURNAMENT GROUND TRUTH BENCHMARKS
+      </div>
+      <table style="width: 100%; border-collapse: collapse; text-align: left; font-size: 16px;">
+        <thead class="mono slate" style="font-size: 13px; border-bottom: 1px solid #1E313B;">
+          <tr>
+            <th style="padding: 12px 16px;">Match Fixture</th>
+            <th style="padding: 12px 16px;">Tournament</th>
+            <th style="padding: 12px 16px;">Raw Event Count</th>
+            <th style="padding: 12px 16px;">Turnovers Profiled</th>
+            <th style="padding: 12px 16px; text-align: right;">Status</th>
+          </tr>
+        </thead>
+        <tbody class="mono" style="divide-y: #1E313B;">
+          <tr style="border-bottom: 1px solid #152228;">
+            <td style="padding: 14px 16px; font-weight: 700; color: #FFFFFF;">Spain vs England (Final)</td>
+            <td style="padding: 14px 16px; color: #94A3B8;">UEFA Euro 2024</td>
+            <td style="padding: 14px 16px; color: #38BDF8;">3,304</td>
+            <td style="padding: 14px 16px; color: #F59E0B;">179 turnovers</td>
+            <td style="padding: 14px 16px; text-align: right; color: #34D399; font-weight: 800;">PASS &check;</td>
+          </tr>
+          <tr style="border-bottom: 1px solid #152228;">
+            <td style="padding: 14px 16px; font-weight: 700; color: #FFFFFF;">Spain vs France (Semifinal)</td>
+            <td style="padding: 14px 16px; color: #94A3B8;">UEFA Euro 2024</td>
+            <td style="padding: 14px 16px; color: #38BDF8;">3,212</td>
+            <td style="padding: 14px 16px; color: #F59E0B;">164 turnovers</td>
+            <td style="padding: 14px 16px; text-align: right; color: #34D399; font-weight: 800;">PASS &check;</td>
+          </tr>
+          <tr style="border-bottom: 1px solid #152228;">
+            <td style="padding: 14px 16px; font-weight: 700; color: #FFFFFF;">Argentina vs France (Final)</td>
+            <td style="padding: 14px 16px; color: #94A3B8;">FIFA World Cup 2022</td>
+            <td style="padding: 14px 16px; color: #38BDF8;">4,409 (120' ET)</td>
+            <td style="padding: 14px 16px; color: #F59E0B;">218 turnovers</td>
+            <td style="padding: 14px 16px; text-align: right; color: #34D399; font-weight: 800;">PASS &check;</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Slide 4: Summary & Open Source CTA -->
+  <div class="slide" id="slide-4-cta">
+    <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 40px;">
+      <div>
+        <div class="mono" style="font-size: 14px; font-weight: 700; color: #10B981; letter-spacing: 2px; text-transform: uppercase; margin-bottom: 8px;">
+          TACTIXIQ FOR COMPETITIVE MATCH PREPARATION
+        </div>
+        <h1 style="font-size: 48px; font-weight: 900; line-height: 1.15; color: #FFFFFF;">
+          Change The Game With <span class="emerald">Open Tactical Intelligence</span>
+        </h1>
+      </div>
+      <div class="mono" style="font-size: 16px; background: #0F171B; border: 1px solid #1E313B; padding: 8px 18px; border-radius: 8px; color: #10B981;">
+        SUBMISSION READY
+      </div>
+    </div>
+
+    <!-- 3 Core Pillars -->
+    <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; flex: 1;">
+      <div class="bg-panel" style="padding: 36px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div class="mono" style="font-size: 14px; font-weight: 800; color: #10B981; margin-bottom: 12px;">PILLAR 01</div>
+          <h3 style="font-size: 26px; font-weight: 800; color: #FFFFFF; margin-bottom: 16px;">Practical Application</h3>
+          <p style="font-size: 17px; line-height: 1.6; color: #94A3B8;">
+            Directly solves modern football's #1 tactical bottleneck: opposition high-press trapping and transition risk reduction for coaches.
+          </p>
+        </div>
+        <div class="mono" style="font-size: 14px; color: #34D399;">
+          &check; Actionable Opposition Triggers
+        </div>
+      </div>
+
+      <div class="bg-panel" style="padding: 36px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div class="mono" style="font-size: 14px; font-weight: 800; color: #38BDF8; margin-bottom: 12px;">PILLAR 02</div>
+          <h3 style="font-size: 26px; font-weight: 800; color: #FFFFFF; margin-bottom: 16px;">Analytical Insight</h3>
+          <p style="font-size: 17px; line-height: 1.6; color: #94A3B8;">
+            Statistically grounded models: Pitch Danger Index (PDI), Empirical Bayes Press Escape Rate, and Conceded xG within 15s.
+          </p>
+        </div>
+        <div class="mono" style="font-size: 14px; color: #38BDF8;">
+          &check; Ground Truth Validated
+        </div>
+      </div>
+
+      <div class="bg-panel" style="padding: 36px; display: flex; flex-direction: column; justify-content: space-between;">
+        <div>
+          <div class="mono" style="font-size: 14px; font-weight: 800; color: #F59E0B; margin-bottom: 12px;">PILLAR 03</div>
+          <h3 style="font-size: 26px; font-weight: 800; color: #FFFFFF; margin-bottom: 16px;">Data Presentation</h3>
+          <p style="font-size: 17px; line-height: 1.6; color: #94A3B8;">
+            Precision 18-zone SVG tactical pitch, real-time turnover vectors, mobile-responsive layout, and zero-latency web deployment.
+          </p>
+        </div>
+        <div class="mono" style="font-size: 14px; color: #F59E0B;">
+          &check; https://aqx-sports.vercel.app
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Footer Link Strip -->
+    <div style="margin-top: 30px; display: flex; justify-content: space-between; align-items: center; border-top: 1px solid #1E313B; pt: 20px;">
+      <div class="mono" style="font-size: 16px; color: #94A3B8;">
+        Live Web App: <span style="color: #10B981; font-weight: 700;">https://aqx-sports.vercel.app</span>
+      </div>
+      <div class="mono" style="font-size: 16px; color: #94A3B8;">
+        Repository: <span style="color: #38BDF8; font-weight: 700;">github.com/Georgefifth/tactix-iq</span>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

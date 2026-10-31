@@ -1,0 +1,104 @@
+[
+  {
+    "idx": 0,
+    "name": "01-cover",
+    "file": "/home/yap/Hack/aqx-sports/evidence/stage-4-demo/raw/scene-00.webm",
+    "wallMs": 5413,
+    "focus": []
+  },
+  {
+    "idx": 1,
+    "name": "02-problem",
+    "file": "/home/yap/Hack/aqx-sports/evidence/stage-4-demo/raw/scene-01.webm",
+    "wallMs": 6452,
+    "focus": []
+  },
+  {
+    "idx": 2,
+    "name": "03-live-pitch",
+    "file": "/home/yap/Hack/aqx-sports/evidence/stage-4-demo/raw/scene-02.webm",
+    "wallMs": 5621,
+    "focus": [
+      {
+        "t": 1.73,
+        "x": 549,
+        "y": 288
+      },
+      {
+        "t": 3.35,
+        "x": 403,
+        "y": 288
+      }
+    ]
+  },
+  {
+    "idx": 3,
+    "name": "04-architecture",
+    "file": "/home/yap/Hack/aqx-sports/evidence/stage-4-demo/raw/scene-03.webm",
+    "wallMs": 6420,
+    "focus": []
+  },
+  {
+    "idx": 4,
+    "name": "05-live-press-matrix",
+    "file": "/home/yap/Hack/aqx-sports/evidence/stage-4-demo/raw/scene-04.webm",
+    "wallMs": 4044,
+    "focus": [
+      {
+        "t": 0.55,
+        "x": 562,
+        "y": 83
+      },
+      {
+        "t": 1.76,
+        "x": 1195,
+        "y": 266
+      }
+    ]
+  },
+  {
+    "idx": 5,
+    "name": "06-live-matchup",
+    "file": "/home/yap/Hack/aqx-sports/evidence/stage-4-demo/raw/scene-05.webm",
+    "wallMs": 3088,
+    "focus": [
+      {
+        "t": 0.53,
+        "x": 711,
+        "y": 83
+      }
+    ]
+  },
+  {
+    "idx": 6,
+    "name": "07-live-scouting-card",
+    "file": "/home/yap/Hack/aqx-sports/evidence/stage-4-demo/raw/scene-06.webm",
+    "wallMs": 4059,
+    "focus": [
+      {
+        "t": 0.56,
+        "x": 856,
+        "y": 83
+      },
+      {
+        "t": 1.78,
+        "x": 619,
+        "y": 361
+      }
+    ]
+  },
+  {
+    "idx": 7,
+    "name": "08-validation",
+    "file": "/home/yap/Hack/aqx-sports/evidence/stage-4-demo/raw/scene-07.webm",
+    "wallMs": 6405,
+    "focus": []
+  },
+  {
+    "idx": 8,
+    "name": "09-closing",
+    "file": "/home/yap/Hack/aqx-sports/evidence/stage-4-demo/raw/scene-08.webm",
+    "wallMs": 6403,
+    "focus": []
+  }
+]
