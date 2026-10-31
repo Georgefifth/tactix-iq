@@ -1,0 +1,221 @@
+{
+  "base": "https://aqx-sports.vercel.app",
+  "browser": "firefox",
+  "headed": false,
+  "startedAt": "2026-10-31T10:07:54.805Z",
+  "finishedAt": "2026-10-31T10:08:17.311Z",
+  "summary": {
+    "total": 16,
+    "pass": 16,
+    "fail": 0
+  },
+  "results": [
+    {
+      "viewport": "desktop",
+      "id": "p0-landing-and-pitch",
+      "title": "Landing page renders with 18-zone pitch and zero overflow",
+      "status": "pass",
+      "ms": 1002,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p0-landing-and-pitch-pitch-canvas-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "p0-zone-spatial-inspection",
+      "title": "Zone click opens inspector with PDI and responsible culprits",
+      "status": "pass",
+      "ms": 1064,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p0-zone-spatial-inspection-zone-7-inspected-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "p0-squad-telemetry-switch",
+      "title": "Switch team recalculates tactical metrics and pitch telemetry",
+      "status": "pass",
+      "ms": 1114,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p0-squad-telemetry-switch-england-squad-loaded-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "p0-press-matrix-quadrant",
+      "title": "Press-resistance matrix renders quadrant and player filters",
+      "status": "pass",
+      "ms": 1857,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p0-press-matrix-quadrant-press-matrix-filtered-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "p1-matchup-simulator",
+      "title": "Tactical Matchup simulator calculates press clash score and battle plan",
+      "status": "pass",
+      "ms": 1158,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p1-matchup-simulator-matchup-clash-active-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "p1-opposition-brief",
+      "title": "Opposition brief presents prioritized press triggers and copy action",
+      "status": "pass",
+      "ms": 1510,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p1-opposition-brief-opposition-brief-dossier-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "p1-error-state-recovery",
+      "title": "Pipeline error is caught gracefully and recovers on user retry",
+      "status": "pass",
+      "ms": 1490,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p1-error-state-recovery-error-state-alert-desktop.png",
+        "evidence/stage-3-qa/screens/p1-error-state-recovery-error-recovered-desktop.png"
+      ]
+    },
+    {
+      "viewport": "desktop",
+      "id": "p2-mock-mode-toggle",
+      "title": "Mock mode toggle swaps between live StatsBomb and mock sandbox",
+      "status": "pass",
+      "ms": 1416,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p2-mock-mode-toggle-mock-mode-active-desktop.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "p0-landing-and-pitch",
+      "title": "Landing page renders with 18-zone pitch and zero overflow",
+      "status": "pass",
+      "ms": 977,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p0-landing-and-pitch-pitch-canvas-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "p0-zone-spatial-inspection",
+      "title": "Zone click opens inspector with PDI and responsible culprits",
+      "status": "pass",
+      "ms": 1070,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p0-zone-spatial-inspection-zone-7-inspected-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "p0-squad-telemetry-switch",
+      "title": "Switch team recalculates tactical metrics and pitch telemetry",
+      "status": "pass",
+      "ms": 1160,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p0-squad-telemetry-switch-england-squad-loaded-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "p0-press-matrix-quadrant",
+      "title": "Press-resistance matrix renders quadrant and player filters",
+      "status": "pass",
+      "ms": 1860,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p0-press-matrix-quadrant-press-matrix-filtered-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "p1-matchup-simulator",
+      "title": "Tactical Matchup simulator calculates press clash score and battle plan",
+      "status": "pass",
+      "ms": 1196,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p1-matchup-simulator-matchup-clash-active-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "p1-opposition-brief",
+      "title": "Opposition brief presents prioritized press triggers and copy action",
+      "status": "pass",
+      "ms": 1542,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p1-opposition-brief-opposition-brief-dossier-mobile.png"
+      ]
+    },
+    {
+      "viewport": "mobile",
+      "id": "p1-error-state-recovery",
+      "title": "Pipeline error is caught gracefully and recovers on user retry",
+      "status": "pass",
+      "ms": 630,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": []
+    },
+    {
+      "viewport": "mobile",
+      "id": "p2-mock-mode-toggle",
+      "title": "Mock mode toggle swaps between live StatsBomb and mock sandbox",
+      "status": "pass",
+      "ms": 1435,
+      "error": null,
+      "errors": [],
+      "warnings": [],
+      "screenshots": [
+        "evidence/stage-3-qa/screens/p2-mock-mode-toggle-mock-mode-active-mobile.png"
+      ]
+    }
+  ]
+}

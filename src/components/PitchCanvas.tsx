@@ -267,7 +267,7 @@ export const PitchCanvas: React.FC<PitchCanvasProps> = ({
         </svg>
 
         {/* Floating Pitch HUD Legend */}
-        <div className="absolute bottom-3 left-3 bg-surface/90 backdrop-blur border border-tactical px-3 py-1.5 rounded-lg flex items-center gap-4 text-xs font-mono">
+        <div className="absolute bottom-3 left-3 bg-surface/90 backdrop-blur border border-tactical px-3 py-1.5 rounded-lg flex items-center gap-4 text-xs font-mono pointer-events-none">
           <div className="flex items-center gap-1.5">
             <span className="w-2.5 h-2.5 rounded bg-emerald-500/80 border border-emerald-400/50" />
             <span className="text-slate-300">PDI 0–49 (Safe)</span>
@@ -284,7 +284,7 @@ export const PitchCanvas: React.FC<PitchCanvasProps> = ({
 
         {/* Selected Zone Quick Tooltip banner */}
         {selectedZone && (
-          <div className="absolute top-3 right-3 bg-panel/95 border border-emerald-500/50 px-3.5 py-2 rounded-lg shadow-xl flex items-center gap-3">
+          <div className="absolute top-3 right-3 bg-panel/95 border border-emerald-500/50 px-3.5 py-2 rounded-lg shadow-xl hidden sm:flex items-center gap-3 pointer-events-none">
             <div className="flex flex-col">
               <span className="text-[10px] uppercase font-bold tracking-wider text-emerald-400">
                 Active Zone Inspection
