@@ -10,3 +10,4 @@ dist-ssr
 /tmp
 /tmp/sb_events
 .vercel
+.env*
